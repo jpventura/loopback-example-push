@@ -52,7 +52,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:allowBackup="false"
-        android:name="com.google.android.gcm.demo.app.io.google.android.gcm.demo.app.DemoApplication">
+        android:name="io.loopback.android.LoopBackApplication">
         <activity
             android:name="io.loopback.android.gcm.demo.app.DemoActivity"
             android:label="@string/app_name"

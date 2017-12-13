@@ -1,10 +1,10 @@
-package io.loopback.android.gcm.demo.app;
+package io.loopback.android;
 
 import android.app.Application;
 
 import com.strongloop.android.loopback.RestAdapter;
 
-public class DemoApplication extends Application {
+public class LoopBackApplication extends Application {
     RestAdapter adapter;
 
     public RestAdapter getLoopBackAdapter() {

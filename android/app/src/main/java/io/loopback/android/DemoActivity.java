@@ -96,7 +96,7 @@ public class DemoActivity extends Activity {
         gcm = GoogleCloudMessaging.getInstance(this);
 
         // 1. Grab the shared RestAdapter instance.
-        final DemoApplication app = (DemoApplication) getApplication();
+        final LoopBackApplication app = (LoopBackApplication) getApplication();
         final RestAdapter adapter = app.getLoopBackAdapter();
 
         // 2. Create LocalInstallation instance
