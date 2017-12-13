@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.gcm.demo.app;
+package io.loopback.android.gcm.demo.app;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 

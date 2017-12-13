@@ -1,4 +1,4 @@
-package com.google.android.gcm.demo.app;
+package io.loopback.android.gcm.demo.app;
 
 import android.app.Application;
 
